@@ -90,7 +90,7 @@ public class EmailListDao {
 		pstmt.setString( 1, vo.getFirstName() );
 		pstmt.setString( 2, vo.getLastName() );
 		pstmt.setString( 3, vo.getEmail() );
-		
+		/**/
 		pstmt.executeUpdate();
 		
 		pstmt.close();
